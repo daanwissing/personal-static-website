@@ -1,6 +1,15 @@
 .profile-pic {
 	border-radius: 50%;
-	border-color: blue;
+	border-color: #1EAEDB;
 	border-width: 5px;
-	border-style: solid
+	border-style: solid;
+}
+
+.front {
+	transition: filter 0.5s ease;
+	filter: grayscale(1);
+}
+
+.front:hover {
+	filter: grayscale(0);
 }
